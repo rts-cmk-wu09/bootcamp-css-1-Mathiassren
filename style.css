@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+}
+
+ p {
+    color: green;
+    font-family: "Trirong", serif;
+}
+
+tr:nth-child(3) {
+    font-family: "Sofia", sans-serif;
+    color: rgb(43, 226, 101);
+}
+
+
+/*Jeg har brugt position absolute. 
+Right 900px afgør hvor langt fra højre side den skubbes ind mod venstre
+Dette er ikke den korrekte måde at opsætte elementerne på siden af hinanden*/
+.submit {
+    width: 350px;
+    position: absolute;
+    right: 900px;
+    bottom: 90px;
+}
